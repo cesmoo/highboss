@@ -408,10 +408,10 @@ async def check_game_and_predict(session: aiohttp.ClientSession):
         f"🅿️ <b>Period:</b> {next_issue[:3]}**{next_issue[-4:]}\n"
         f"🎯 <b>Predict: {predicted}</b>\n"
         f"📈 <b>ဖြစ်နိုင်ခြေ:</b> {final_prob}%\n"
-        f"💡 <b>အကြောင်းပြချက်:</b>\n"
-        f"{reason}\n"
-        f"━━━━━━━━━━━━━━━━━━\n"
-        f"{bet_advice}"
+       # f"💡 <b>အကြောင်းပြချက်:</b>\n"
+       # f"{reason}\n"
+       # f"━━━━━━━━━━━━━━━━━━\n"
+        #f"{bet_advice}"
     )
     
     current_time = time.time()
